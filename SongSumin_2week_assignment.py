@@ -47,6 +47,7 @@ def letMeIntroduceMyself():
 def calcAI():
     # your code
     a=input("첫 번째 숫자를 입력하시오: ")
-    b=input("두 번째 숫자를 입력하시오: ")    
-    c=a+b
-    return print('두 수의 합은',c,'입니다.')
+    x=int(a)
+    b=input("두 번째 숫자를 입력하시오: ")  
+    y=int(b)  
+    return print('두 수의 합은',x+y,'입니다.')
