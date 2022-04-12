@@ -76,6 +76,8 @@ def stock_price(stockChart):
         answer = "아니야 조금만 더 기다려"
         return answer
 
+print(stock_price([-1, -2, +3, -7, +2, +4, -5, +6, 0, +1]))
+
 
 
 
@@ -108,3 +110,13 @@ def decryption(letter):
 
 
 '''
+
+
+def haha(k):
+    if k == 3:
+        print("나는 천재")
+        return "나는 천재"
+
+haha(3)
+
+print('Hello World!')
